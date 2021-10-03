@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Univeristy Website</title>
+    <link rel="stylesheet" href="eduford.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/955068caef.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <section class="sub-header">
+      <nav>
+        <a href="eduford.html"><img src="logo.png" alt=""></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fas fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="Eduford.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+      <h1>Our Courses</h1>
+  </section>
+  
+  <!---Courses content---->
+  <section class="courses">
+    <h1> Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  
+    <div class="row">
+      <div class="course-col"> 
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          Dolore velit suscipit nam ducimus laborum molestias nisi temporibus, doloremque 
+          adipisci cupiditate aspernatur! Excepturi hic placeat recusandae. Sequi distinctio illo blanditiis animi.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Undergraduate</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          Dolore velit suscipit nam ducimus laborum molestias nisi temporibus, doloremque 
+          adipisci cupiditate aspernatur! Excepturi hic placeat recusandae. Sequi distinctio illo blanditiis animi.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Post Graduate</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          Dolore velit suscipit nam ducimus laborum molestias nisi temporibus, doloremque 
+          adipisci cupiditate aspernatur! Excepturi hic placeat recusandae. Sequi distinctio illo blanditiis animi.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <!---FACILITIES SECTION---->
+
+<section class="facilities">
+  <h1>Our Facilities</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+  <div class="row">
+    <div class="fac-col">
+      <img src="library.png" alt="">
+      <h3>World Class Library</h3>
+      <p>Lorem ipsum dolor Esse similique aspernatur autem in praesentium aut laudantium ullam non eum porro ex, obcaecati rerum exercitationem dolorem ipsum alias error rem recusandae!.</p>
+    </div>
+
+    <div class="fac-col">
+      <img src="basketball.png" alt="">
+      <h3>Largest Playground</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse similique aspernatur autem in praesentium aut laudantium ullam non eum porro ex, obcaecati rerum exercitationem dolorem ipsum alias error rem recusandae!</p>
+    </div>
+
+    <div class="fac-col">
+      <img src="cafeteria.png" alt="">
+      <h3>Tasty and Healthy Food</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse similique aspernatur autem in praesentium aut laudantium ullam non eum porro ex, obcaecati rerum exercitationem dolorem ipsum alias error rem recusandae!.</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+<!---FOOTER---->
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  
+    labore esse maxime excepturi, <br>fugit unde adipisci tenetur,  
+    vitae saepe temporibus veniam ut.</p>
+
+    <div class="icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+    <p>Made with <i class="far fa-heart"></i> by DamolaBolaji</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+    var navlinks = document.getElementByid("navlinks");
+
+     function showmenu(){
+       navlinks.style.right = "0";
+     }
+     function hidemenu(){
+       navlinks.style.right = "-200px";
+     }
+
+  </script>
+</body>
+</html>

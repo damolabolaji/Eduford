@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Univeristy Website</title>
+    <link rel="stylesheet" href="eduford.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/955068caef.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <section class="sub-header">
+      <nav>
+        <a href="eduford.html"><img src="logo.png" alt=""></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fas fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="Eduford.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+      <h1>Contact Us</h1>
+  </section>
+  
+  <!---Contact us content---->
+<section class="location" >
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15856.188018058989!2d3.3899103!3d6.515735!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7347f1a6be13e004!2sUNILAG%20Nigeria!5e0!3m2!1sen!2sng!4v1630087918063!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+<section class="contact-us">
+  <div class="row">
+    <div class="contact-col">
+      <div>
+        <i class="fas fa-home"></i>
+        <span>
+          <h5>Univeristy Of Lagos,</h5>
+          <p>University Road</p>
+        </span>
+      </div>
+      <div>
+        <i class="fas fa-phone"></i>
+        <span>
+          <h5>+234 803 4567 7890</h5>
+          <p>Monday to Friday, 10am to 6pm</p>
+        </span>
+      </div>
+      <div>
+        <i class="far fa-envelope"></i>
+        <span>
+          <h5>Univeristy@123.com</h5>
+          <p>Email us your query</p>
+        </span>
+      </div>
+    </div>
+    <div class="contact-col">
+      <form action="form-handler.php" method="POST">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="email" name="email" placeholder="Enter email address" required>
+        <input type="text" name="subject" placeholder="Enter subject" required>
+        <textarea  name="message" cols="30" rows="8" placeholder="Enter subject" required></textarea>
+        <button type="submit" class="hero-btn red-btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!---FOOTER---->
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  
+    labore esse maxime excepturi, <br>fugit unde adipisci tenetur,  
+    vitae saepe temporibus veniam ut.</p>
+
+    <div class="icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+    <p>Made with <i class="far fa-heart"></i> by DamolaBolaji</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+    var navlinks = document.getElementByid("navlinks");
+
+     function showmenu(){
+       navlinks.style.right = "0";
+     }
+     function hidemenu(){
+       navlinks.style.right = "-200px";
+     }
+
+  </script>
+</body>
+</html>

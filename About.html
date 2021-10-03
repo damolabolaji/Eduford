@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Univeristy Website</title>
+    <link rel="stylesheet" href="eduford.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/955068caef.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <section class="sub-header">
+      <nav>
+        <a href="eduford.html"><img src="logo.png" alt=""></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fas fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="Eduford.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+      <h1>About Us</h1>
+  </section>
+  
+  <!---About content---->
+
+  <section class="aboutus">
+    <div class="row">
+      <div class="about-col">
+        <h1>We Are The World's Best University</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit excepturi sint provident quod totam vel consectetur ducimus aperiam fugiat aspernatur ex veritatis dicta tenetur nemo facere pariatur, corrupti quibusdam? Dolor?
+          Dolores hic saepe sunt   Sequi velit sit, id autem eligendi harum nesciunt quidem fugit rem quasi? Illo officia cum iusto tempore ullam assumenda pariatur expedita aliquid.
+          Omnis rem laborum deserunt mollitia qui corrupti minus ipsum veritatis voluptatum tempore. Quidem soluta velit eligendi sunt est. Numquam dignissimos earum voluptatum perspiciatis delectus vel fugiat consequatur fugit itaque ducimus.
+        </p>
+        <a class="hero-btn red-btn" href="#">Explore Now</a>
+      </div>
+      <div class="about-col">
+        <img src="about.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+
+
+
+<!---FOOTER---->
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  
+    labore esse maxime excepturi, <br>fugit unde adipisci tenetur,  
+    vitae saepe temporibus veniam ut.</p>
+
+    <div class="icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+    <p>Made with <i class="far fa-heart"></i> by DamolaBolaji</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+    var navlinks = document.getElementByid("navlinks");
+
+     function showmenu(){
+       navlinks.style.right = "0";
+     }
+     function hidemenu(){
+       navlinks.style.right = "-200px";
+     }
+
+  </script>
+</body>
+</html>
